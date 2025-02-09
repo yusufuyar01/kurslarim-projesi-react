@@ -8,6 +8,13 @@ function App() {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(true)
 
+  const deleteCourse = (id) => {
+    console.log(id+" id'li kurs silindi.");
+    const afterDeletedCourses = courses.filter((courses) => courses.id !== id )
+    setCourses(afterDeletedCourses);
+
+  }
+
   const fetchCourses = async () => {
     setLoading(true);
     try {
@@ -27,7 +34,7 @@ function App() {
     <div className="App">
       {loading ? (<Loading/>)
       :
-      (<Courses courses={courses} />)
+      (<Courses courses={courses} renoveCourse={deleteCourse} />)
       }
       
     </div>

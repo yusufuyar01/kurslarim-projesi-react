@@ -1,0 +1,15 @@
+
+.courses-general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.courses
+
+.cardTitlePrice{
+    width: 350px;
+    border: solid 5px blue;
+    border-radius: 20px;
+}
