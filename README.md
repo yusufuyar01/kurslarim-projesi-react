@@ -1,4 +1,4 @@
-# kurslarim projesi react
+# kurslarim Projesi React
 
  React çalışmaları 6
 
