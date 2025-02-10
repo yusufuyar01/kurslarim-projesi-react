@@ -10,7 +10,8 @@
  Bu react çalışmasında yaptığım sayfada "kurslarım" başlığı altında, db.json dosyasından `json-server` aracılığıyla çektiğim dataları card yapısında gösterdim. 5 kurs var ve bu 5 kursta id, başlık, içerik ve fiyat propsları bulunmaktadır. Projede db.json dosyasından veri çekmek için `axios` kullandım. 
 <br/>
 <br/>
-# Kurulum ve Çalıştırma:  <br/>
+
+# Kurulum ve Çalıştırma:  
 Bu projenin bağımlılıkları `npm` ve `npx` kullanarak kolayca yüklenebilmektedir.
 
  Projeyi çalıştırmak aşağıdaki adımları izleyiniz:
@@ -32,3 +33,6 @@ Bu projenin bağımlılıkları `npm` ve `npx` kullanarak kolayca yüklenebilmek
 <br/>
 
 
+
+
+[def]: #kurulum-ve-çalıştırma
