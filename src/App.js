@@ -33,8 +33,14 @@ function App() {
   return (
     <div className="App">
       {loading ? (<Loading/>)
-      :
-      (<Courses courses={courses} renoveCourse={deleteCourse} />)
+      :<>
+      {courses.length === 0 ? (
+        <div className='refleshDiv'>
+          <h2>Bütün Kursları sildiniz!</h2>
+          <button className='cardDelete' onClick={fetchCourses}>Yenile</button>
+        </div>
+      ) : (<Courses courses={courses} renoveCourse={deleteCourse} />)}
+      </>
       }
       
     </div>
