@@ -2,8 +2,8 @@
 
  React çalışmaları 6
 
- [Proje Hakkında](Proje Hakkında)
- [Projenin Kurulumu ve Çalıştırılması]{Projenin Kurulumu ve Çalıştırılması}
+ - [Proje Hakkında](Proje Hakkında)
+ - [Projenin Kurulumu ve Çalıştırılması](Projenin Kurulumu ve Çalıştırılması)
 
 
 # Proje Hakkında:  
