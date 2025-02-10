@@ -2,15 +2,15 @@
 
  React çalışmaları 6
 
- - [Proje Hakkında](Proje Hakkında)
- - [Projenin Kurulumu ve Çalıştırılması](Projenin Kurulumu ve Çalıştırılması)
+ - [Proje Hakkında](#proje-hakkında)
+ - [Projenin Kurulumu ve Çalıştırılması](#projenin-kurulumu-ve-çalıştırılması)
 
 
-# Proje Hakkında:  
+## Proje Hakkında:  
  Bu react çalışmasında yaptığım sayfada "kurslarım" başlığı altında, db.json dosyasından `json-server` aracılığıyla çektiğim dataları card yapısında gösterdim. 5 kurs var ve bu 5 kursta id, başlık, içerik ve fiyat propsları bulunmaktadır. Projede db.json dosyasından veri çekmek için `axios` kullandım. 
 <br/>
 <br/>
-# Projenin Kurulumu ve Çalıştırılması:  <br/>
+## Projenin Kurulumu ve Çalıştırılması:  <br/>
 Bu projenin bağımlılıkları `npm` ve `npx` kullanarak kolayca yüklenebilmektedir.
 
  Projeyi çalıştırmak aşağıdaki adımları izleyiniz:
